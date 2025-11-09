@@ -136,12 +136,18 @@ address {
 .sectionone {
   display: flex;
   flex-direction: column;
-  background-color: #2e2f42;
   height: 600px;
   align-items: center;
   padding: 188px 0;
+  background-image: url();
+  background-color: rgb(46, 47, 66, 0.4);
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover;*/
 }
-
+.hero {
+  /* background-image: url("./images/people-office.jpg"); */
+}
 .button {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
@@ -157,25 +163,6 @@ address {
   cursor: pointer;
   margin: 0 auto;
   display: block;
-  /*display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  min-width: 169px;
-  height: 56px;
-  border: none;*/
 }
 
 .button:hover,
