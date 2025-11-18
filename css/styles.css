@@ -279,8 +279,6 @@ h2 {
   background: #f4f4fd;
   height: 732px;
   padding: 120px 0 120px 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 h2 .sectionthree .titletwo {
@@ -298,9 +296,6 @@ h2 .sectionthree .titletwo {
   background: #f4f4fd;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  background: #fff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sectionthree-list {
@@ -311,6 +306,8 @@ h2 .sectionthree .titletwo {
   height: 380px;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .job {
   padding: 32px 0;
@@ -360,9 +357,11 @@ h2 .sectionthree .titletwo {
   margin-bottom: 72px;
 }
 
-/*.sectionthree-list {
-  background-color: #ffffff;
-}*/
+.sectionthree-list {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  /*background-color: #ffffff;*/
+}
 
 .sectiontwo-paragraf {
   text-align: center;
@@ -430,11 +429,10 @@ h2 .sectionthree .titletwo {
 .footerall {
   display: flex;
   align-items: baseline;
-  /*margin-right: 120px;*/
 }
-/*.footer-texts {
-  display: flex;
-}*/
+.footer-texts {
+  margin-right: 120px;
+}
 
 .logo-footer {
   font-weight: 700;
@@ -447,9 +445,11 @@ h2 .sectionthree .titletwo {
   margin-bottom: 16px;
   display: inline-block;
 }
+
 .logo-part-footer {
   color: #f4f4fd;
 }
+
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
@@ -459,7 +459,6 @@ h2 .sectionthree .titletwo {
 .media {
   height: 80px;
   position: relative;
-  /*right: 692px;*/
 }
 .titlefooter {
   font-weight: 500;
